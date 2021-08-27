@@ -9,6 +9,7 @@ import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
 import Sorting.Distinct;
+import Sorting.MaxProductOfThree;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -43,7 +44,9 @@ public class Program {
         MinAvgTwoSlice minAvgTwoSlice = new MinAvgTwoSlice();       // get back to it.
         System.out.println("------#14-------");
         Distinct distinct = new Distinct();
-
+        System.out.println("------#15-------");
+        MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
+        System.out.println("------#16-------");
 
 
 
