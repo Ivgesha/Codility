@@ -10,6 +10,7 @@ import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
 import Sorting.Distinct;
 import Sorting.MaxProductOfThree;
+import Sorting.Triangle;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -47,6 +48,7 @@ public class Program {
         System.out.println("------#15-------");
         MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
         System.out.println("------#16-------");
+        Triangle triangle = new Triangle();
 
 
 
