@@ -7,6 +7,8 @@ import CountingElements.PermCheck;
 import Iterations.BinaryGap;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
+import PrefixSums.MinAvgTwoSlice;
+import Sorting.Distinct;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -38,6 +40,12 @@ public class Program {
         System.out.println("------#12-------");
         GenomicRangeQuery genomicRangeQuery = new GenomicRangeQuery();
         System.out.println("------#13-------");
+        MinAvgTwoSlice minAvgTwoSlice = new MinAvgTwoSlice();       // get back to it.
+        System.out.println("------#14-------");
+        Distinct distinct = new Distinct();
+
+
+
 
 
     }
