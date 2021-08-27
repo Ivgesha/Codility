@@ -10,7 +10,9 @@ import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
 import Sorting.Distinct;
 import Sorting.MaxProductOfThree;
+import Sorting.NumberOfDiscIntersections;
 import Sorting.Triangle;
+import StackAndQueues.Brackets;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -49,6 +51,11 @@ public class Program {
         MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
         System.out.println("------#16-------");
         Triangle triangle = new Triangle();
+        System.out.println("------#17-------");
+        NumberOfDiscIntersections numberOfDiscIntersections = new NumberOfDiscIntersections();      // get back to it.
+        System.out.println("------#18-------");
+        Brackets brackets = new Brackets();
+        System.out.println("------#19-------");
 
 
 
