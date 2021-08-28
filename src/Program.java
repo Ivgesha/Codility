@@ -5,6 +5,7 @@ import CountingElements.MaxCounters;
 import CountingElements.MissingInteger;
 import CountingElements.PermCheck;
 import Iterations.BinaryGap;
+import Leader.Dominator;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
@@ -15,6 +16,7 @@ import Sorting.Triangle;
 import StackAndQueues.Brackets;
 import StackAndQueues.Fish;
 import StackAndQueues.Nesting;
+import StackAndQueues.StoneWall;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -61,6 +63,10 @@ public class Program {
         Fish fish = new Fish();
         System.out.println("------#20-------");
         Nesting nesting = new Nesting();
+        System.out.println("------#21-------");
+        StoneWall stoneWall = new StoneWall();          // get back to it.
+        System.out.println("------#22-------");
+        Dominator dominator = new Dominator();
 
 
 
