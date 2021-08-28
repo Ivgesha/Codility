@@ -13,6 +13,8 @@ import Sorting.MaxProductOfThree;
 import Sorting.NumberOfDiscIntersections;
 import Sorting.Triangle;
 import StackAndQueues.Brackets;
+import StackAndQueues.Fish;
+import StackAndQueues.Nesting;
 import TimeComplexity.FrogJmp;
 import TimeComplexity.PermMissingElem;
 import TimeComplexity.TapeEquilibrium;
@@ -56,6 +58,9 @@ public class Program {
         System.out.println("------#18-------");
         Brackets brackets = new Brackets();
         System.out.println("------#19-------");
+        Fish fish = new Fish();
+        System.out.println("------#20-------");
+        Nesting nesting = new Nesting();
 
 
 
