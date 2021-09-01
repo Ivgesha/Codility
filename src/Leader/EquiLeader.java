@@ -85,7 +85,7 @@ public class EquiLeader {
             System.out.println("No leader");
             return 0;
         }
-        System.out.println(leader);
+//        System.out.println(leader);
 
 
 
@@ -105,7 +105,6 @@ public class EquiLeader {
                 equi++;
             }
         }
-        System.out.println("---- equi -----");
         return equi;
     }
 }

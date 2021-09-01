@@ -7,6 +7,7 @@ import CountingElements.PermCheck;
 import Iterations.BinaryGap;
 import Leader.Dominator;
 import Leader.EquiLeader;
+import MaximumSliceProblem.MaxProfit;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
@@ -70,6 +71,8 @@ public class Program {
         Dominator dominator = new Dominator();
         System.out.println("------#23-------");
         EquiLeader equiLeader = new EquiLeader();
+        System.out.println("------#24-------");
+        MaxProfit maxProfit = new MaxProfit();
 
 
 
