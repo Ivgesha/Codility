@@ -6,6 +6,7 @@ import CountingElements.MissingInteger;
 import CountingElements.PermCheck;
 import Iterations.BinaryGap;
 import Leader.Dominator;
+import Leader.EquiLeader;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
@@ -67,6 +68,9 @@ public class Program {
         StoneWall stoneWall = new StoneWall();          // get back to it.
         System.out.println("------#22-------");
         Dominator dominator = new Dominator();
+        System.out.println("------#23-------");
+        EquiLeader equiLeader = new EquiLeader();
+
 
 
 
