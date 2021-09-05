@@ -8,6 +8,7 @@ import Iterations.BinaryGap;
 import Leader.Dominator;
 import Leader.EquiLeader;
 import MaximumSliceProblem.MaxProfit;
+import MaximumSliceProblem.MaxSliceSum;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
@@ -73,6 +74,10 @@ public class Program {
         EquiLeader equiLeader = new EquiLeader();
         System.out.println("------#24-------");
         MaxProfit maxProfit = new MaxProfit();
+        System.out.println("------#25-------");
+        MaxSliceSum maxSliceSum = new MaxSliceSum();
+
+
 
 
 
