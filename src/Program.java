@@ -7,11 +7,13 @@ import CountingElements.PermCheck;
 import Iterations.BinaryGap;
 import Leader.Dominator;
 import Leader.EquiLeader;
+import MaximumSliceProblem.MaxDoubleSliceSum;
 import MaximumSliceProblem.MaxProfit;
 import MaximumSliceProblem.MaxSliceSum;
 import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
+import PrimeAndCompositeNumbers.CountFactors;
 import Sorting.Distinct;
 import Sorting.MaxProductOfThree;
 import Sorting.NumberOfDiscIntersections;
@@ -76,6 +78,12 @@ public class Program {
         MaxProfit maxProfit = new MaxProfit();
         System.out.println("------#25-------");
         MaxSliceSum maxSliceSum = new MaxSliceSum();
+        System.out.println("------#26-------");
+        MaxDoubleSliceSum maxDoubleSliceSum = new MaxDoubleSliceSum();
+        System.out.println("------#27-------");
+        CountFactors countFactors = new CountFactors();
+
+
 
 
 
