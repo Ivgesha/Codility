@@ -30,7 +30,6 @@ N is an integer within the range [1..2,147,483,647].
         System.out.println(res);
     }
 
-
     public int solution(int N) {
 
     int res = 0;
