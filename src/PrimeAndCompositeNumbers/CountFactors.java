@@ -24,7 +24,7 @@ N is an integer within the range [1..2,147,483,647].
     // Correctness = 100;
     // Performance = 100;
     // https://app.codility.com/demo/results/trainingW553WK-ZZP/
-    public CountFactors(){
+    public CountFactors() {
         int N = 24;
         int res = solution(N);
         System.out.println(res);
@@ -32,18 +32,18 @@ N is an integer within the range [1..2,147,483,647].
 
     public int solution(int N) {
 
-    int res = 0;
-    long i = 1;
-    double sqrN = Math.sqrt(N);
-    while(i < sqrN){
-        if(N%i == 0){
-            res += 2;   // two dividers
+        int res = 0;
+        long i = 1;
+        double sqrN = Math.sqrt(N);
+        while (i < sqrN) {
+            if (N % i == 0) {
+                res += 2;   // two dividers
+            }
+            i++;
         }
-        i++;
-    }
-    if(i*i == N){
-        res += 1;
-    }
-    return res;
+        if (i * i == N) {
+            res += 1;
+        }
+        return res;
     }
 }

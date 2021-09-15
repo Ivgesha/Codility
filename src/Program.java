@@ -14,6 +14,7 @@ import PrefixSums.CountDiv;
 import PrefixSums.GenomicRangeQuery;
 import PrefixSums.MinAvgTwoSlice;
 import PrimeAndCompositeNumbers.CountFactors;
+import PrimeAndCompositeNumbers.MinPerimeterRectangle;
 import Sorting.Distinct;
 import Sorting.MaxProductOfThree;
 import Sorting.NumberOfDiscIntersections;
@@ -82,7 +83,8 @@ public class Program {
         MaxDoubleSliceSum maxDoubleSliceSum = new MaxDoubleSliceSum();
         System.out.println("------#27-------");
         CountFactors countFactors = new CountFactors();
-
+        System.out.println("------#28-------");
+        MinPerimeterRectangle minPerimeterRectangle = new MinPerimeterRectangle();
 
 
 
